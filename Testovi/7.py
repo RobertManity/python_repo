@@ -12,5 +12,5 @@ search = browser.find_element_by_link_text("Blic").click()
 print(browser.current_url)
 assert (browser.current_url=="https://www.blic.rs/")
 
-capture_path="C:\Users\Public"
+capture_path="C:\Users\Public\Pictures"
 browser.save_screenshot(capture_path)

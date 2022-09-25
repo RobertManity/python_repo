@@ -10,7 +10,7 @@ class PythonOrgSearch(unittest.TestCase):
     def test_title(self):
         driver = self.driver
         driver.get('https://learnix-eshop.herokuapp.com')
-        assert ' eShop' in driver.title 
+        assert 'eShop' in driver.title 
 
     def test_click_button(self):
         driver = self.driver

@@ -1,1 +1,0 @@
-https://www.tutorialspoint.com/how-to-click-on-a-link-in-selenium-with-python

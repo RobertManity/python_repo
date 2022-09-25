@@ -9,3 +9,9 @@ Test_Scenario_3.py: Exploratory Test
 
 Test_Scenario_4.py: Search Field Test
 
+Test_Scenario_5.py: Search field unexisting item 
+
+Test_Scenario_6.py: Language change test
+
+Test_Scenario_7.py: Swiss airlaines page test
+
