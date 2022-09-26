@@ -1,5 +1,5 @@
 # python_repo
-Python Selenium tests
+Python Selenium tests list (2022)
 ## Scenario list
 Test_Scenario_1.py: Testing if button with "Hello" ID exists
 
@@ -14,4 +14,6 @@ Test_Scenario_5.py: Search field unexisting item
 Test_Scenario_6.py: Language change test
 
 Test_Scenario_7.py: Swiss airlaines page test
+
+Test_Scenario_Rest.py: Testing Github API
 
