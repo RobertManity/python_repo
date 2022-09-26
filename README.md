@@ -15,3 +15,4 @@ Test_Scenario_6.py: Language change test
 
 Test_Scenario_7.py: Swiss airlaines page test
 
+Test_Scenario_Rest.py: Testing Github API
