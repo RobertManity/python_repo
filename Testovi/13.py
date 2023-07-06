@@ -1,37 +1,29 @@
-import unittest
+from ast import Break
+from asyncio.base_subprocess import WriteSubprocessPipeProto
+from cgitb import text
+from multiprocessing.sharedctypes import Value
+from threading import BrokenBarrierError
+from time import sleep
+import random
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
-class PythonOrgSearch(unittest.TestCase):
+browser = webdriver.Firefox()
 
-    def setUp(self):
-        self.driver = webdriver.Firefox()
-
-    def test_title(self):
-        driver = self.driver
-        driver.get('http://localhost:8081/2.html')
-        assert 'My first web page' in driver.title 
-
-    def test_click_button(self):
-        driver = self.driver
-        driver.get('http://localhost:8081/2.html')
-
-        button = driver.find_element_by_id("button1")
-        assert button
-        button.click()
-
-    def tearDown(self):
-        self.driver.close()
-
-if __name__ == "__main__":
-    unittest.main()
-    
+#browser = webdriver.Chrome()
 
 
+#Browser open the page
+browser.get('http://tutorialsninja.com/demo/')
+browser.maximize_window()
+sleep(2)
 
-
-
-    phones=browser.find_element_by_xpath("//a[text()='Phones & PDAs']")
+phones=browser.find_element_by_xpath("//a[text()='Phones & PDAs']")
 assert(phones)
 phones.click()
 

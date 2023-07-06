@@ -10,10 +10,10 @@ assert 'page' in browser.title
 #elem = browser.find_element(By.NAME, 'p')  # Find the search box
 #elem.send_keys('seleniumhq' + Keys.RETURN)
 
-button = browser.find_element_by_id("button1")
-button.click()
+p = browser.find_element_by_id("Hello")
+assert p
 
 
-print ("bye")
+
 
 browser.quit()

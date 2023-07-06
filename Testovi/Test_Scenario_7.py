@@ -29,5 +29,6 @@ for element in a:
     if element.get_attribute("data-di-id") == 'di-id-796c97cf-ae470ac4':
         print ("nasao sam ga")
         element.click()
+        
 
 
